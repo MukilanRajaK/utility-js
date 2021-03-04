@@ -30,4 +30,8 @@ describe('Filter', () => {
         expect(filter(["A","b","C","D","e"],"filterUpperCase")).toEqual(["b","e"]);
     });
 
+    it('Max of [3,9],x=>x>500', () => {
+        expect(filter([],"x=>true")).toEqual([]);
+    });
+
 })

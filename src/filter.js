@@ -26,8 +26,8 @@ function fun(x,val2)
     {
         return eval(val2.substring(3));
     }
-
 }
+
 
 function filtering(first,beg,end,second)
 {
@@ -59,8 +59,10 @@ const filter = (first,second) => {
     {
         return fun(first,second);
     }
-    var ab=filtering(first,0,len,second);
-    console.log(ab);
-    return ab;  
+    var out=filtering(first,0,len,second);
+    out = out.filter(function( element ) {
+        return element !== undefined;
+     });
+    return out;  
 }
 module.exports = filter;

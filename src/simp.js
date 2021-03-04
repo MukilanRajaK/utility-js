@@ -1,7 +1,5 @@
-function cube(v)
-{
-    return v*v*v;
-}
-arr=a{x:10};
-var s="a.x=>cube(a.x)";
-console.log(arr.map(eval(s)));
+var a=[[undefined,1],2];
+a = a.filter(function( element ) {
+    return element !== undefined;
+ });
+console.log(a);
