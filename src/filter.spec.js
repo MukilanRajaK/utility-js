@@ -19,7 +19,7 @@ describe('Filter', () => {
     });
 
     it('Max of [],x=>false', () => {
-        expect(filter([],"x=>true")).toEqual([]);
+        expect(filter([],"x=>false")).toEqual([]);
     });
 
     it("Max of ['A','b','C','D','e'],filterLowerCase", () => {
@@ -31,7 +31,8 @@ describe('Filter', () => {
     });
 
     it('Max of [3,9],x=>x>500', () => {
-        expect(filter([],"x=>true")).toEqual([]);
+        expect(filter([],"x=>x>500")).toEqual([]);
     });
+
 
 })
