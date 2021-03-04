@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614891729895" clover="3.2.0">
-  <project timestamp="1614891729896" name="All files">
-    <metrics statements="130" coveredstatements="126" conditionals="70" coveredconditionals="67" methods="19" coveredmethods="19" elements="219" coveredelements="212" complexity="0" loc="130" ncloc="130" packages="1" files="8" classes="8"/>
+<coverage generated="1614892740460" clover="3.2.0">
+  <project timestamp="1614892740460" name="All files">
+    <metrics statements="132" coveredstatements="129" conditionals="72" coveredconditionals="70" methods="19" coveredmethods="19" elements="223" coveredelements="218" complexity="0" loc="132" ncloc="132" packages="1" files="8" classes="8"/>
     <file name="Map.js" path="E:\desktop wind7\kjmr\ThoughtWorks\Pre Reading\Module 7\utility-js\src\Map.js">
       <metrics statements="21" coveredstatements="21" conditionals="12" coveredconditionals="12" methods="3" coveredmethods="3"/>
       <line num="3" count="31" type="cond" truecount="2" falsecount="0"/>
@@ -121,25 +121,27 @@
       <line num="25" count="1" type="stmt"/>
     </file>
     <file name="reduce.js" path="E:\desktop wind7\kjmr\ThoughtWorks\Pre Reading\Module 7\utility-js\src\reduce.js">
-      <metrics statements="18" coveredstatements="17" conditionals="8" coveredconditionals="7" methods="3" coveredmethods="3"/>
-      <line num="5" count="22" type="cond" truecount="2" falsecount="0"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="11" count="18" type="stmt"/>
-      <line num="19" count="32" type="cond" truecount="2" falsecount="0"/>
-      <line num="21" count="7" type="stmt"/>
-      <line num="23" count="25" type="cond" truecount="2" falsecount="0"/>
-      <line num="25" count="3" type="stmt"/>
-      <line num="26" count="3" type="stmt"/>
-      <line num="30" count="22" type="stmt"/>
-      <line num="32" count="25" type="stmt"/>
+      <metrics statements="20" coveredstatements="20" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+      <line num="5" count="41" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="9" type="stmt"/>
+      <line num="11" count="32" type="stmt"/>
+      <line num="19" count="55" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="14" type="stmt"/>
+      <line num="23" count="41" type="cond" truecount="2" falsecount="0"/>
+      <line num="25" count="6" type="stmt"/>
+      <line num="26" count="6" type="stmt"/>
+      <line num="30" count="35" type="stmt"/>
+      <line num="32" count="41" type="stmt"/>
       <line num="35" count="1" type="stmt"/>
-      <line num="36" count="4" type="stmt"/>
-      <line num="37" count="4" type="stmt"/>
-      <line num="38" count="4" type="cond" truecount="1" falsecount="1"/>
-      <line num="40" count="0" type="stmt"/>
-      <line num="42" count="4" type="stmt"/>
-      <line num="43" count="4" type="stmt"/>
-      <line num="45" count="1" type="stmt"/>
+      <line num="36" count="9" type="stmt"/>
+      <line num="37" count="9" type="stmt"/>
+      <line num="38" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="44" count="8" type="stmt"/>
+      <line num="46" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="48" count="5" type="stmt"/>
+      <line num="50" count="9" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
     </file>
     <file name="tail.js" path="E:\desktop wind7\kjmr\ThoughtWorks\Pre Reading\Module 7\utility-js\src\tail.js">
       <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>

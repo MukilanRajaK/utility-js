@@ -32,14 +32,21 @@ function reducing(first,beg,end)
     first=reducing(first,beg+1,end);
 }
 
-const reduce = (first) => {
+const reduce = (first,second,third) => {
     ans=undefined;
     var len=first.length;
     if(len==undefined)
     {
-        return fun(first);
+        fun(first);
     }
-    reducing(first,0,len); 
+    else
+    {
+        reducing(first,0,len);
+    }
+    if(third!=undefined)
+    {
+        fun(third);
+    } 
     return ans; 
 }
 module.exports = reduce;
