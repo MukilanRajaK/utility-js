@@ -1,6 +1,5 @@
 function Minimum(first,beg,end,ans)
 {
-    console.log(ans);
     var loc=Number.MAX_VALUE;
     var len;
     if(beg==end)
