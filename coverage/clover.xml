@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614892740460" clover="3.2.0">
-  <project timestamp="1614892740460" name="All files">
-    <metrics statements="132" coveredstatements="129" conditionals="72" coveredconditionals="70" methods="19" coveredmethods="19" elements="223" coveredelements="218" complexity="0" loc="132" ncloc="132" packages="1" files="8" classes="8"/>
+<coverage generated="1614894283531" clover="3.2.0">
+  <project timestamp="1614894283531" name="All files">
+    <metrics statements="126" coveredstatements="123" conditionals="68" coveredconditionals="66" methods="18" coveredmethods="18" elements="212" coveredelements="207" complexity="0" loc="126" ncloc="126" packages="1" files="8" classes="8"/>
     <file name="Map.js" path="E:\desktop wind7\kjmr\ThoughtWorks\Pre Reading\Module 7\utility-js\src\Map.js">
       <metrics statements="21" coveredstatements="21" conditionals="12" coveredconditionals="12" methods="3" coveredmethods="3"/>
       <line num="3" count="31" type="cond" truecount="2" falsecount="0"/>
@@ -144,19 +144,13 @@
       <line num="52" count="1" type="stmt"/>
     </file>
     <file name="tail.js" path="E:\desktop wind7\kjmr\ThoughtWorks\Pre Reading\Module 7\utility-js\src\tail.js">
-      <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
-      <line num="4" count="18" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="10" count="17" type="stmt"/>
-      <line num="11" count="17" type="cond" truecount="2" falsecount="0"/>
-      <line num="13" count="16" type="cond" truecount="2" falsecount="0"/>
-      <line num="15" count="9" type="stmt"/>
-      <line num="19" count="7" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="27" count="18" type="stmt"/>
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="30" count="1" type="stmt"/>
-      <line num="31" count="9" type="stmt"/>
+      <line num="31" count="9" type="cond" truecount="2" falsecount="0"/>
       <line num="33" count="1" type="stmt"/>
+      <line num="36" count="8" type="stmt"/>
+      <line num="37" count="8" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

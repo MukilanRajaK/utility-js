@@ -1,4 +1,4 @@
-function lastelement(last)
+/*function lastelement(last)
 {
     var ans;
     if(!Array.isArray(last))
@@ -25,9 +25,15 @@ function lastelement(last)
         }
     }
     return ans;
-}
+}*/
 
 const tail = (last) => {
-    return lastelement(last);   
+    if(!Array.isArray(last))
+    {
+        return undefined;
+    }
+    //return lastelement(last);
+    last.shift();
+    return last;   
 }
 module.exports = tail;
