@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614877031355" clover="3.2.0">
-  <project timestamp="1614877031355" name="All files">
-    <metrics statements="45" coveredstatements="45" conditionals="20" coveredconditionals="20" methods="7" coveredmethods="7" elements="72" coveredelements="72" complexity="0" loc="45" ncloc="45" packages="1" files="4" classes="4"/>
+<coverage generated="1614877400683" clover="3.2.0">
+  <project timestamp="1614877400683" name="All files">
+    <metrics statements="66" coveredstatements="66" conditionals="30" coveredconditionals="30" methods="9" coveredmethods="9" elements="105" coveredelements="105" complexity="0" loc="66" ncloc="66" packages="1" files="5" classes="5"/>
     <file name="Max.js" path="E:\desktop wind7\kjmr\ThoughtWorks\Pre Reading\Module 7\utility-js\src\Max.js">
       <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
       <line num="3" count="53" type="stmt"/>
@@ -17,6 +17,30 @@
       <line num="23" count="36" type="stmt"/>
       <line num="24" count="36" type="cond" truecount="2" falsecount="0"/>
       <line num="26" count="9" type="stmt"/>
+      <line num="28" count="36" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="5" type="stmt"/>
+      <line num="33" count="5" type="stmt"/>
+      <line num="34" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="38" count="4" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+    </file>
+    <file name="Min.js" path="E:\desktop wind7\kjmr\ThoughtWorks\Pre Reading\Module 7\utility-js\src\Min.js">
+      <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+      <line num="3" count="53" type="stmt"/>
+      <line num="4" count="53" type="stmt"/>
+      <line num="6" count="53" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="17" type="stmt"/>
+      <line num="10" count="36" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="13" type="stmt"/>
+      <line num="13" count="13" type="stmt"/>
+      <line num="17" count="23" type="stmt"/>
+      <line num="19" count="36" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="14" type="stmt"/>
+      <line num="23" count="36" type="stmt"/>
+      <line num="24" count="36" type="cond" truecount="2" falsecount="0"/>
+      <line num="26" count="3" type="stmt"/>
       <line num="28" count="36" type="stmt"/>
       <line num="31" count="1" type="stmt"/>
       <line num="32" count="5" type="stmt"/>
