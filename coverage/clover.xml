@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1614871116038" clover="3.2.0">
-  <project timestamp="1614871116038" name="All files">
+<coverage generated="1614871328816" clover="3.2.0">
+  <project timestamp="1614871328816" name="All files">
     <metrics statements="24" coveredstatements="24" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5" elements="39" coveredelements="39" complexity="0" loc="24" ncloc="24" packages="1" files="3" classes="3"/>
     <file name="add.js" path="E:\desktop wind7\kjmr\ThoughtWorks\Pre Reading\Module 7\utility-js\src\add.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

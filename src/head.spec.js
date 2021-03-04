@@ -2,8 +2,8 @@ const head = require('./head');
 
 describe('Head', () => {
 
-    it('Head of [1,2,3,4]', () => {
-        expect(head([1,2,3,4])).toEqual(1);
+    it('Head of [1,2,3,4,5]', () => {
+        expect(head([1,2,3,4,5])).toEqual(1);
     });
 
     it('Head of ["Hi","Mukilan","Raja","K"]', () => {
@@ -34,7 +34,7 @@ describe('Head', () => {
         expect(head(3)).toEqual(3);
     });
 
-    it('Head of [[[1,2],3],4]', () => {
+    it('Head of [[[[[11,2],4],5],8,9]]', () => {
         expect(head([[[[[11,2],4],5],8,9]])).toEqual(11);
     });
 
